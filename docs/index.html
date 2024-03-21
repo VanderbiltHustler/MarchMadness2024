@@ -74,17 +74,18 @@
       <h2>2024 MARCH MADNESS BRACKET</h2>
       <p style="margin-top: 5px; color: #D6B464; text-align: center;"><small> Published March 21, 2024 • March Madness starts on March 21, 2024</small></p>
       <br>
+      <!--
       <p style="text-align: center;">View Bracket:</p>
       <p style="text-align: center;">Live March Madness Bracket</p>
       <p style="text-align: center;">Sports Editor Andrew Wilf</p>
       <p style="text-align: center;">Deputy Sports Editor Sam Curtis</p>
       <p style="text-align: center;">Deputy Sports Editor Anish Mago</p>
-
+-->
     </div>
     
-      <div class="bracket-container">
+    <div class="bracket-container">
 
-        <div class="bracket-level">
+        <div class="bracket-level" id="first-round-east">
             <h3>EAST</h3>
             <div class="bracket-matchup">
                 <div class="bracket-team loser">
@@ -168,7 +169,7 @@
         </div>
 
             
-        <div class="bracket-level">
+        <div class="bracket-level" id="second-round-east">
           <div class="bracket-matchup">
             <div class="bracket-team winner">
               <div class="bracket-name"></div><div class="bracket-score"></div>
@@ -202,7 +203,7 @@
           </div>
         </div>
 
-        <div class="bracket-level">
+        <div class="bracket-level" id="sweet-16-east">
           <div class="bracket-matchup">
             <div class="bracket-team winner">
               <div class="bracket-name"></div><div class="bracket-score"></div>
@@ -221,7 +222,7 @@
           </div>
         </div>
 
-        <div class="bracket-level">
+        <div class="bracket-level" id="elite-8-east">
           <div class="bracket-matchup">
             <div class="bracket-team">
               <div class="bracket-name"></div><div class="bracket-score"></div>
@@ -232,7 +233,7 @@
           </div>
         </div>
 
-        <div class="bracket-level">
+        <div class="bracket-level" id="final-4-east">
           <div class="bracket-matchup">
             <div class="bracket-team">
               <div class="bracket-name"></div>
@@ -241,7 +242,7 @@
           </div>
         </div>
 
-        <div class="bracket-level">
+        <div class="bracket-level" id="final-4-south">
             <div class="bracket-matchup">
               <div class="bracket-team">
                 <div class="bracket-name"></div>
@@ -251,7 +252,7 @@
           </div>
 
 
-        <div class="bracket-level">
+        <div class="bracket-level" id="elite-8-south">
           <div class="bracket-matchup">
             <div class="bracket-team loser">
               <div class="bracket-score"></div><div class="bracket-name"></div>
@@ -262,7 +263,7 @@
           </div>
         </div>
 
-        <div class="bracket-level">
+        <div class="bracket-level" id="sweet-16-south">
           <div class="bracket-matchup">
             <div class="bracket-team winner">
               <div class="bracket-score"></div><div class="bracket-name"></div>
@@ -281,7 +282,7 @@
           </div>
         </div>
 
-        <div class="bracket-level">
+        <div class="bracket-level" id="second-round-south">
           <div class="bracket-matchup">
             <div class="bracket-team loser">
               <div class="bracket-score"></div><div class="bracket-name"></div>
@@ -316,7 +317,7 @@
           </div>
         </div>
 
-        <div class="bracket-level">
+        <div class="bracket-level" id="first-round-south">
             <h3>SOUTH</h3>
             <div class="bracket-matchup">
                 <div class="bracket-team loser">
@@ -399,13 +400,51 @@
 
         </div>
 
-      </div>
+    </div>
 
-      <br>
-      <br>
+    <div class="bracket-container" id="finals">
 
-      <div class="bracket-container">
-        <div class="bracket-level">
+        <div class="bracket-level" id="final-4left">
+            <h3>FINAL FOUR</h3>
+            <div class="bracket-matchup">
+                <div class="bracket-team">
+                    <div class="bracket-name"></div><div class="bracket-score"></div>
+                </div>
+                <div class="bracket-team">
+                    <div class="bracket-name"></div><div class="bracket-score"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bracket-level" id="champ">
+            <h3>CHAMPIONSHIPS</h3>
+            <div class="bracket-matchup">
+              <div class="bracket-team">
+                <div class="bracket-name"></div><div class="bracket-score"></div>
+              </div>
+              <div class="bracket-team">
+                <div class="bracket-name"></div><div class="bracket-score"></div>
+              </div>
+            </div>
+        </div>
+
+        <div class="bracket-level" id="final-4right">
+            <h3>FINAL FOUR</h3>
+            <div class="bracket-matchup">
+              <div class="bracket-team">
+                <div class="bracket-name"></div><div class="bracket-score"></div>
+            </div>
+              <div class="bracket-team">
+                <div class="bracket-name"></div><div class="bracket-score"></div>
+              </div>
+            </div>
+        </div>
+
+    </div>
+    
+
+    <div class="bracket-container">
+        <div class="bracket-level" id="first-round-west">
             <h3>WEST</h3>
             <div class="bracket-matchup">
                 <div class="bracket-team loser">
@@ -487,9 +526,8 @@
             </div>
 
         </div>
-
             
-        <div class="bracket-level">
+        <div class="bracket-level" id="second-round-west">
           <div class="bracket-matchup">
             <div class="bracket-team winner">
               <div class="bracket-name"></div><div class="bracket-score"></div>
@@ -523,7 +561,7 @@
           </div>
         </div>
 
-        <div class="bracket-level">
+        <div class="bracket-level" id="sweet-16-west">
           <div class="bracket-matchup">
             <div class="bracket-team winner">
               <div class="bracket-name"></div><div class="bracket-score"></div>
@@ -542,7 +580,7 @@
           </div>
         </div>
 
-        <div class="bracket-level">
+        <div class="bracket-level" id="elite-8-west">
           <div class="bracket-matchup">
             <div class="bracket-team">
               <div class="bracket-name"></div><div class="bracket-score"></div>
@@ -553,7 +591,7 @@
           </div>
         </div>
 
-        <div class="bracket-level">
+        <div class="bracket-level" id="final-4-west">
           <div class="bracket-matchup">
             <div class="bracket-team">
               <div class="bracket-name"></div>
@@ -562,7 +600,7 @@
           </div>
         </div>
 
-        <div class="bracket-level">
+        <div class="bracket-level" id="final-4-midwest">
             <div class="bracket-matchup">
               <div class="bracket-team">
                 <div class="bracket-name"></div>
@@ -572,7 +610,7 @@
           </div>
 
 
-        <div class="bracket-level">
+        <div class="bracket-level" id="elite-8-midwest">
           <div class="bracket-matchup">
             <div class="bracket-team loser">
               <div class="bracket-score"></div><div class="bracket-name"></div>
@@ -583,7 +621,7 @@
           </div>
         </div>
 
-        <div class="bracket-level">
+        <div class="bracket-level" id="sweet-16-midwest">
           <div class="bracket-matchup">
             <div class="bracket-team winner">
               <div class="bracket-score"></div><div class="bracket-name"></div>
@@ -602,7 +640,7 @@
           </div>
         </div>
 
-        <div class="bracket-level">
+        <div class="bracket-level" id="second-round-midwest">
           <div class="bracket-matchup">
             <div class="bracket-team loser">
               <div class="bracket-score"></div><div class="bracket-name"></div>
@@ -637,7 +675,7 @@
           </div>
         </div>
 
-        <div class="bracket-level">
+        <div class="bracket-level" id="first-round-midwest">
             <h3>MIDWEST</h3>
             <div class="bracket-matchup">
                 <div class="bracket-team loser">
@@ -720,7 +758,7 @@
 
         </div>
 
-      </div>
+    </div>
 
     <footer>
         <div class="container">
