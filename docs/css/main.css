@@ -10,6 +10,10 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+body {
+    overflow-y: auto;
+  }
   
 /* UTILITIES */
 /* hides an element on screen, but not from screen readers */
