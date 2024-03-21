@@ -52,14 +52,23 @@ html, body{
   height: 25px; /* Adjust size as needed */
   border-radius: 50%; /* Makes the image a circle */
   overflow: hidden; /* Ensures the image stays within the circle */
-  display: inline; 
+  display: inline-block; /* Use inline-block to ensure proper display */
   margin-right: 8px;
 }
 
-.circle-image img {
-  width: 100%; /* Ensures the image takes up the entire circle */
-  height: auto; /* Maintains aspect ratio */
+.circle-image#button {
+  display: inline-flexbox;
+  width: 18px; /* Adjust size as needed */
+  height: 18px; /* Adjust size as needed */
+  margin-right: 0px;
 }
+
+
+.circle-image img {
+  width: 108%; /* Ensures the image takes up the entire circle */
+  height: 108%; /* Maintains aspect ratio */
+}
+
 
 /*BRACKET STYLES*/
 .bracket-container {
@@ -104,6 +113,15 @@ html, body{
   width: 120px;
 }
 
+.bracket-matchup#middle{
+  height: 124px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 5px;
+  width: 320px;
+}
+
 .bracket-text {
   display: flex;
   flex-direction: row;
@@ -112,7 +130,7 @@ html, body{
 }
 
 .bracket-team{
-  height: 58px;
+  height: 65px;
   width: 100%;
   background-color: #F5F5F5;
   box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
