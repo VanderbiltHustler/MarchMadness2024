@@ -53,13 +53,8 @@ h1, h2, h3 {
     text-align: center;
     margin: 0 auto;
     max-width: 80%;
-    color: white;
+    color: #D6B464;
 }
-
-.header-section {
-    position: relative;
-    top: -110px; /* Adjust this value to move the section up or down */
-  }
   
 h1 { /* first headline */
     padding: 30vh 0 0.75em;
@@ -125,7 +120,7 @@ h8 { /* footer2 */
     font-size: 20px;
     line-height: 18px;
     text-align: center;
-    color: #D6B464;
+    color: #8E6600;
     font-style: italic;
 
 }
@@ -228,12 +223,12 @@ header {
 }
 /* navbar */
 nav {
-    color: #D6B464; /* Set your desired text color */
+    color: #8E6600; /* Set your desired text color */
     position: fixed;
     width: 100%;
     z-index: 200;
-    background-color: #8E6600; /* Set your initial background color */
-    border: 2px solid #8E6600; /* This adds a black border to the bottom of the nav */
+    background-color: #D6B464; /* Set your initial background color */
+    border: 2px solid #D6B464; /* This adds a black border to the bottom of the nav */
     padding-top: -0.5px;
 }
 
@@ -501,7 +496,7 @@ nav li a:hover, nav li a:active {
     FOOTER
 */
 footer {
-    background-color: var(--footer);
+    background-color: #8E6600;
     padding: 30px 0 15px;
     margin-top: 3.0em;
 }
