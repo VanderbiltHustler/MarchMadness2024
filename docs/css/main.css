@@ -36,13 +36,21 @@ html {
 /*
     TYPOGRAPHY
 */
+
+.subhead-container {
+    width: 35%;
+    margin: 0 auto; /* Center the container horizontally */
+    justify-content: center;
+}
+
 p {
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 450;
     font-size: 16px;
     justify-content: center;
     color: black;
-    line-height: 8px;
+    line-height: auto;
+    text-align: center;
 
 }
 
@@ -292,16 +300,7 @@ li.item a {
     margin-top: 0em; /* Adjust this value to move the "ABOUT" text up */
 
 }
-li.toggle {
-    /* show menu bar (toggle class) */
-    display: block;
-    cursor: pointer;
 
-    margin-left: auto;
-    margin-right: 10px;
-    color: #F2EEE3;
-    font-size: 16px;
-}
 nav a {
     /* so the ENTIRE item is clickable */
     display: block;
@@ -375,70 +374,9 @@ section p:first-child {
 
 .chart-container {
     max-width: 500px;
-    margin: 0 auto; /* This will center the container if its width is less than the parent container */
+    margin: 5px; /* This will center the container if its width is less than the parent container */
 }
 
-/* 
-    PHOTOS
-*/
-img {
-    display: block;
-    width: 100%;
-}
-figcaption {
-    margin-top: 2px;
-    font-size: 14px;
-    font-family: sans-serif;
-    line-height: 20px;
-}
-.big-image {
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-.small-image {
-    width: 100%;
-    padding-bottom: 30px;
-    padding-top: 20px;
-    display: inline-block;
-}
-.wide-right {
-    padding-top: 20px;
-    padding-bottom: 30px;
-    padding-left: 25px;
-    margin-right: -40%;
-    float: right;
-    width: 80%;
-}
-.wide-left {
-    padding-top: 20px;
-    padding-bottom: 30px;
-    padding-right: 25px;
-    margin-left: -40%;
-    float: left;
-    width: 80%;
-    text-align: left;
-}
-/* youtube embed styles 
-.embed-container { 
-    position: relative; 
-    padding-bottom: 56.25%; 
-    height: 0; 
-    overflow: hidden; 
-    max-width: 100%; 
-} 
-.embed-container iframe, .embed-container object, .embed-container embed { 
-    position: absolute; 
-    top: 0; 
-    left: 0; 
-    width: 100%; 
-    height: 100%; 
-}*/
-/* pulled quotes */
-.pull-quote-center {
-    width: 100%;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
 .quote {
     font-size: 24px;
     line-height: 28px;
@@ -463,12 +401,12 @@ figcaption {
 
 /* default link styles */
 a:link, a:visited {
-    color:#D6B464;
+    color:#8E6600;
     text-decoration: none;
-    border-bottom: 0.125em solid #D6B464;
+    border-bottom: 0.125em solid #8E6600;
 }
 a:hover, a:active {
-    color: #D6B464;
+    color: #8E6600;
     border-bottom: none;
 }
 
@@ -499,7 +437,7 @@ nav li a:hover, nav li a:active {
     FOOTER
 */
 footer {
-    background-color: #8E6600;
+    background-color: #D6B464;
     padding: 30px 0 15px;
     margin-top: 3.0em;
 }

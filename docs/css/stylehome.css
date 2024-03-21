@@ -24,13 +24,22 @@ html, body{
 }
 
 /*IMAGE STYLES*/
+.highlight {
+  display: inline-block;
+  padding: 1px 6px; /* Adjust padding as needed */
+  background-color: #f0f0f0; /* Box background color */
+  border: 1px solid #ccc; /* Box border */
+  margin: 2px;
+  border-radius: 4px; /* Rounded corners */
+}
+
 .circle-container {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  order: 2;
   margin-left: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  margin-top: -3px;
 }
 
 .circle-image {
@@ -38,36 +47,39 @@ html, body{
   height: 25px; /* Adjust size as needed */
   border-radius: 50%; /* Makes the image a circle */
   overflow: hidden; /* Ensures the image stays within the circle */
-  display: flex; /* Allows centering of image */
-  justify-content: center; /* Center image horizontally */
-  align-items: center; /* Center image vertically */
+  display: inline; 
   margin-right: 8px;
 }
 
 .circle-image img {
   width: 100%; /* Ensures the image takes up the entire circle */
   height: auto; /* Maintains aspect ratio */
-  filter: grayscale(100%); /* Apply grayscale filter */
 }
 
 /*BRACKET STYLES*/
 .bracket-container {
   display: flex;
-  height: 120%;
+  height: 100%;
   width: 95%;
   justify-content: center; /* Center items horizontally */
   align-items: center; /* Center items vertically */
   text-align: center; /* Optional: Center text inside items */
+  margin-bottom: 200px;;
+  margin-top: -100px;
   margin-left: 2.5%;
 }
 
 .bracket-container#finals {
-  width: 50%;
-  padding: 0px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
   height: 120px;
-
+  margin-left: 15%;
+  margin-top: 150px;
+  margin-bottom: 350px;
 }
+
 
 .bracket-level{
   display: flex;
@@ -78,10 +90,7 @@ html, body{
 }
 
 .bracket-matchup{
-  width: 90%;
-  margin: auto;
-  max-height: 100px;
-  height: 100%;
+  height: 124px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -90,11 +99,13 @@ html, body{
 
 .bracket-text {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between; /* Align items with space between them */
+  align-items: center; /* Center items vertically */
 }
 
 .bracket-team{
-  height: 70%;
+  height: 58px;
   width: 100%;
   background-color: #F5F5F5;
   box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
@@ -106,8 +117,7 @@ html, body{
   font-family: 'Libre Franklin', sans-serif;
   width: 100%;
   font-size: .75em;
-  margin: 5px;
-  line-height: 1.5em;
+  margin-left: 5px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -115,15 +125,25 @@ html, body{
   text-align: left;
 }
 
+.bracket-name#right{
+  margin-right: 4px;
+  text-align: right;
+}
+
 .bracket-score{
   font-family: 'Libre Franklin', sans-serif;
-  width: 75%;
+  width: 50%;
   font-size: .75em;
   margin: 5px;
   line-height: 1.5em;
   overflow: hidden;
   color: #2B2B2B;
   text-align: right;
+}
+
+.bracket-score#right{
+  margin-left: 4px;
+  text-align: left;
 }
 
 .winner>.bracket-name, .winner>.bracket-score{
