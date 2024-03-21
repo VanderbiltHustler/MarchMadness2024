@@ -38,10 +38,11 @@ html {
 */
 p {
     font-family: 'Georgia', serif;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 16px;
-    justify-content: left;
-    color: #D6B464;
+    justify-content: center;
+    color: black;
+    line-height: 8px;
 
 }
 
@@ -77,9 +78,11 @@ h2 { /* second headline */
 
 h3 { /* third headline */
     font-family: 'Libre Franklin', sans-serif;
-    font-size: 168px;
-    font-weight: 800;
-    margin-top: -0.5em; /* Adjust the value to move the text up */
+    font-weight: 500;
+    font-size: 14px;
+    justify-content: left;
+    color: black;
+    line-height: 2.5em;
 }
 
 h4 { /* section header */
