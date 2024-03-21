@@ -13,6 +13,8 @@ html {
 
 body {
     overflow-y: auto;
+    overflow-x: scroll;
+
   }
   
 /* UTILITIES */

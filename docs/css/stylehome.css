@@ -16,9 +16,6 @@
 @import url(https://fonts.googleapis.com/css?family=Dosis);
 
 html, body{
-  width: 100%;
-  height: 100%;
-  margin: 0;
   background-color: #F2EEE3;
 }
 
@@ -31,11 +28,27 @@ html, body{
   margin: 2px;
   border-radius: 4px; /* Rounded corners */
   transition: background-color 0.3s ease; /* Smooth transition */
+
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  justify-content: center;
+  color: black;
+  line-height: auto;
+  text-align: center;
 }
 
 .highlight:hover {
   background-color: #D6B464; /* Change background color on hover */
   cursor: pointer;
+}
+
+.highlight:active {
+  background-color: #D6B464;
+}
+
+.highlight.active {
+  background-color: #D6B464;
 }
 
 .circle-container {
@@ -48,25 +61,28 @@ html, body{
 }
 
 .circle-image {
-  width: 25px; /* Adjust size as needed */
-  height: 25px; /* Adjust size as needed */
+  width: 30px; /* Adjust size as needed */
+  height: 30px; /* Adjust size as needed */
   border-radius: 50%; /* Makes the image a circle */
   overflow: hidden; /* Ensures the image stays within the circle */
   display: inline-block; /* Use inline-block to ensure proper display */
+  vertical-align: middle; /* Align the circle images vertically in the middle */
   margin-right: 8px;
 }
 
 .circle-image#button {
-  display: inline-flexbox;
-  width: 18px; /* Adjust size as needed */
-  height: 18px; /* Adjust size as needed */
-  margin-right: 0px;
+  width: 20px; /* Adjust size as needed */
+  height: 20px; /* Adjust size as needed */
+  margin-right: 2px;
 }
 
 
 .circle-image img {
-  width: 108%; /* Ensures the image takes up the entire circle */
-  height: 108%; /* Maintains aspect ratio */
+  width: 120%; /* Ensures the image takes up the entire circle */
+  height: 120%; /* Maintains aspect ratio */
+  vertical-align: middle; /* Align the circle images vertically in the middle */
+  margin-bottom: 10px;
+  margin-right: 20px; /* Move the image to the left within the frame */
 }
 
 
@@ -104,6 +120,10 @@ html, body{
   width: 100%;
 }
 
+.bracket-level#final-4 {
+  margin-top: 1.1em;
+}
+
 .bracket-matchup{
   height: 124px;
   display: flex;
@@ -119,7 +139,7 @@ html, body{
   flex-direction: column;
   justify-content: space-between;
   margin-left: 5px;
-  width: 320px;
+  width: 300px;
 }
 
 .bracket-text {
