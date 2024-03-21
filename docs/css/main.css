@@ -80,7 +80,6 @@ h2 { /* second headline */
     font-size: 60px;
     font-weight: 700;
     margin-top: -0.3em; /* Adjust the value to move the text up */
-    line-height: 1; /* Reduce line height to bring the text up */
     padding: 0; /* Reset padding to remove any extra space */
 }
 
@@ -88,7 +87,7 @@ h3 { /* third headline */
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 500;
     font-size: 14px;
-    justify-content: left;
+    justify-content: center;
     color: black;
     line-height: 2.5em;
 }

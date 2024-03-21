@@ -9,7 +9,6 @@
 .header-section {
   position: relative;
   top: -110px; /* Adjust this value to move the section up or down */
-  margin-bottom: -110px;
 }
 
 /* SET ANY MORE STYLES YOU WANT HERE: */
@@ -23,14 +22,20 @@ html, body{
   background-color: #F2EEE3;
 }
 
-/*IMAGE STYLES*/
+/*IMAGE AND BUTTON STYLES*/
 .highlight {
   display: inline-block;
   padding: 1px 6px; /* Adjust padding as needed */
   background-color: #f0f0f0; /* Box background color */
-  border: 1px solid #ccc; /* Box border */
+  border: 1.5px solid #ccc; /* Box border */
   margin: 2px;
   border-radius: 4px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.highlight:hover {
+  background-color: #D6B464; /* Change background color on hover */
+  cursor: pointer;
 }
 
 .circle-container {
@@ -60,24 +65,25 @@ html, body{
 .bracket-container {
   display: flex;
   height: 100%;
-  width: 95%;
   justify-content: center; /* Center items horizontally */
+  max-width: 95%; /* Adjust max-width as needed */
   align-items: center; /* Center items vertically */
   text-align: center; /* Optional: Center text inside items */
-  margin-bottom: 200px;;
-  margin-top: -100px;
-  margin-left: 2.5%;
+  margin-bottom: 200px;
+  margin-top: -270px;
+  margin-left: auto; /* Auto left margin to center */
+  margin-right: auto; /* Auto right margin to center */
 }
+
 
 .bracket-container#finals {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 70%; /* Adjust width as needed */
   height: 120px;
-  margin-left: 15%;
-  margin-top: 150px;
-  margin-bottom: 350px;
+  margin-top: -100px;
+  margin-bottom: 400px;
 }
 
 
@@ -95,6 +101,7 @@ html, body{
   flex-direction: column;
   justify-content: space-between;
   margin: 5px;
+  width: 120px;
 }
 
 .bracket-text {
