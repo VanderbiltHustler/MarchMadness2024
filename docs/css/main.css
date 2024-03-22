@@ -10,6 +10,12 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+html, body{
+    position: relative;
+    background-color: #F2EEE3;
+    overflow-x: auto;
+  }
   
 /* UTILITIES */
 /* hides an element on screen, but not from screen readers */

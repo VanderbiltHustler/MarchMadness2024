@@ -18,7 +18,6 @@
 html, body{
   position: relative;
   background-color: #F2EEE3;
-  overflow-y: auto;
   overflow-x: scroll;
 }
 
