@@ -97,8 +97,8 @@ html, body{
   max-width: 95%; /* Adjust max-width as needed */
   align-items: center; /* Center items vertically */
   text-align: center; /* Optional: Center text inside items */
-  margin-bottom: 200px;
-  margin-top: -270px;
+  margin-bottom: 140px;
+  margin-top: -170px;
   margin-left: auto; /* Auto left margin to center */
   margin-right: auto; /* Auto right margin to center */
 }
@@ -109,9 +109,9 @@ html, body{
   justify-content: center;
   align-items: center;
   width: 70%; /* Adjust width as needed */
-  height: 120px;
-  margin-top: -100px;
-  margin-bottom: 400px;
+  height: 160px;
+  margin-top: -150px;
+  margin-bottom: 170px;
 }
 
 
@@ -128,7 +128,7 @@ html, body{
 }
 
 .bracket-matchup{
-  height: 124px;
+  height: 60px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -137,7 +137,6 @@ html, body{
 }
 
 .bracket-matchup#middle{
-  height: 124px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -150,6 +149,14 @@ html, body{
   flex-direction: row;
   justify-content: space-between; /* Align items with space between them */
   align-items: center; /* Center items vertically */
+}
+
+.bracket-text#right {
+  background-color: rgb(62, 157, 62);
+}
+
+.bracket-text#wrong {
+  background-color: rgb(179, 61, 61);
 }
 
 .bracket-team{
@@ -171,6 +178,7 @@ html, body{
   white-space: nowrap;
   color: #2B2B2B;
   text-align: left;
+  margin: 5px;
 }
 
 .bracket-name#right{
@@ -182,7 +190,6 @@ html, body{
   font-family: 'Libre Franklin', sans-serif;
   width: 50%;
   font-size: .75em;
-  margin: 5px;
   line-height: 1.5em;
   overflow: hidden;
   color: #2B2B2B;

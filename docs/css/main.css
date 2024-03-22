@@ -10,11 +10,11 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
-
   
 /* UTILITIES */
 /* hides an element on screen, but not from screen readers */
 .sr-only {
+    position: absolute;
     width: 1px;
     height: 1px;
     padding: 0;
@@ -415,9 +415,9 @@ a:link, a:visited {
     text-decoration: none;
     border-bottom: 0.125em solid #8E6600;
 }
-a:hover, a:active {
+a:hover {
     color: #8E6600;
-    border-bottom: none;
+    border-bottom: 0.125em solid #8E6600;
 }
 
 /* navbar social icons */
@@ -449,7 +449,6 @@ nav li a:hover, nav li a:active {
 footer {
     background-color: #D6B464;
     padding: 30px 0 15px;
-    margin-top: 3.0em;
 }
 
 /* 
@@ -474,11 +473,5 @@ footer {
 }
 .ad-code {
     padding-bottom: 30px;
-}
-
-.graph-container {
-    width: 100%; /* or specify a fixed width in pixels */
-    height: auto; /* or specify a fixed height in pixels */
-    /* other styles */
 }
 
