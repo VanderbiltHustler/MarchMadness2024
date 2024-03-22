@@ -64,6 +64,7 @@ html, body{
 }
 
 .circle-image {
+  filter: grayscale(100%);
   width: 30px; /* Adjust size as needed */
   height: 30px; /* Adjust size as needed */
   border-radius: 50%; /* Makes the image a circle */
@@ -73,10 +74,47 @@ html, body{
   margin-right: 8px;
 }
 
+.circle-image#wrong {
+  filter: grayscale(0%);
+}
+
+.circle-image#wrong::before {
+  content:"";
+  position: absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  background-color: rgb(179, 61, 61);
+  opacity: 50%;
+  border-radius: 50%; /* Ensure the overlay matches the circle shape */
+  z-index:1;
+}
+
+.circle-image#right {
+  filter: grayscale(0%);
+}
+
+.circle-image#right::before {
+  content:"";
+  position: absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  background-color: rgb(62, 157, 62);
+  opacity: 50%;
+  border-radius: 50%; /* Ensure the overlay matches the circle shape */
+  z-index:1;
+}
+
+
 .circle-image#button {
   width: 20px; /* Adjust size as needed */
   height: 20px; /* Adjust size as needed */
   margin-right: 2px;
+  filter: grayscale(0%);
+
 }
 
 
@@ -109,9 +147,10 @@ html, body{
   justify-content: center;
   align-items: center;
   width: 70%; /* Adjust width as needed */
-  height: 120px;
-  margin-top: -100px;
-  margin-bottom: 400px;
+  height: 160px;
+  margin-top: -150px;
+  margin-bottom: 300px;
+  margin-left: 16%;
 }
 
 
@@ -137,10 +176,10 @@ html, body{
 }
 
 .bracket-matchup#middle{
-  height: 124px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  text-align: center;
   margin-left: 5px;
   width: 300px;
 }
