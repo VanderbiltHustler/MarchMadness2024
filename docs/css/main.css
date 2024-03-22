@@ -99,7 +99,9 @@ h3 { /* third headline */
     font-weight: 500;
     font-size: 14px;
     justify-content: center;
+    text-align: center;
     color: black;
+    margin: auto;
     line-height: 2.5em;
 }
 

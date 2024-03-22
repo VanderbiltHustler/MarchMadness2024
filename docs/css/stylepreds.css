@@ -140,7 +140,8 @@ html, body{
 .bracket-matchup#middle{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  text-align: center;
   margin-left: 5px;
   width: 300px;
 }
