@@ -11,16 +11,10 @@ html {
     box-sizing: inherit;
 }
 
-body {
-    overflow-y: auto;
-    overflow-x: scroll;
-
-  }
   
 /* UTILITIES */
 /* hides an element on screen, but not from screen readers */
 .sr-only {
-    position: absolute;
     width: 1px;
     height: 1px;
     padding: 0;

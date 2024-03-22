@@ -16,7 +16,10 @@
 @import url(https://fonts.googleapis.com/css?family=Dosis);
 
 html, body{
+  position: relative;
   background-color: #F2EEE3;
+  overflow-y: auto;
+  overflow-x: scroll;
 }
 
 /*IMAGE AND BUTTON STYLES*/
