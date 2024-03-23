@@ -157,16 +157,13 @@ html, body{
   background-color: rgb(62, 157, 62);
 }
 
-.bracket-text#wrong {
-  background-color: rgb(179, 61, 61);
-}
 
 .bracket-team#right {
   background-color: rgb(62, 157, 62);
 }
 
 .bracket-team#wrong {
-  background-color: rgb(179, 61, 61);
+  background-color: rgb(206, 77, 77);
 }
 
 .bracket-team{
