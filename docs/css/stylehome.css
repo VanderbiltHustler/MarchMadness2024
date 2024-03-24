@@ -15,13 +15,11 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700);
 @import url(https://fonts.googleapis.com/css?family=Dosis);
 
-html, body{
-  position: relative;
-  background-color: #F2EEE3;
-  overflow-x: scroll;
+/*IMAGE AND BUTTON STYLES*/
+.container {
+  overflow-x: auto; /* Enable horizontal scrolling */
 }
 
-/*IMAGE AND BUTTON STYLES*/
 .highlight {
   display: inline-block;
   padding: 1px 6px; /* Adjust padding as needed */
@@ -266,11 +264,22 @@ No media query for `xs` since this is the default */
 } */
 
 @media (max-width: 1000px) {
-  header {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+
+  .bracket-matchup {
+    width: 85px;
   }
+
+  .bracket-matchup#middle {
+    width: 85px;
+  }
+
+  .circle-image {
+    width: 20px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    margin-right: 5px;
+
+  }
+  
 }
 
 /* Medium devices (tablets, 768px and up) */

@@ -10,12 +10,6 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
-
-html, body{
-    position: relative;
-    background-color: #F2EEE3;
-    overflow-x: auto;
-  }
   
 /* UTILITIES */
 /* hides an element on screen, but not from screen readers */
@@ -234,6 +228,7 @@ footer {
     font-size: 16px;
     line-height: 26px;
     font-weight: 300;
+    flex: 1;
 }
 .section-break { /* three asterisks */
     padding-top: 15px;
