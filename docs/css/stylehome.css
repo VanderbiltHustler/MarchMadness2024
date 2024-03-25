@@ -14,6 +14,7 @@
 html, body{
   position: relative;
   background-color: #F2EEE3;
+  overflow-x: auto;
 }
 
 /* SET ANY MORE STYLES YOU WANT HERE: */
@@ -21,9 +22,6 @@ html, body{
 @import url(https://fonts.googleapis.com/css?family=Dosis);
 
 /*IMAGE AND BUTTON STYLES*/
-.container {
-  overflow-x: auto; /* Enable horizontal scrolling */
-}
 
 .highlight {
   display: inline-block;
@@ -90,7 +88,6 @@ html, body{
   background-color: rgb(179, 61, 61);
   opacity: 50%;
   border-radius: 50%; /* Ensure the overlay matches the circle shape */
-  z-index:1;
 }
 
 .circle-image#right {
@@ -107,7 +104,6 @@ html, body{
   background-color: rgb(62, 157, 62);
   opacity: 50%;
   border-radius: 50%; /* Ensure the overlay matches the circle shape */
-  z-index:1;
 }
 
 
@@ -133,17 +129,22 @@ html, body{
 
 
 /*BRACKET STYLES*/
-.bracket-container {
-  display: flex;
-  height: 100%;
-  justify-content: left; /* Center items horizontally */
-  max-width: 98%; /* Adjust max-width as needed */
-  align-items: center; /* Center items vertically */
-  text-align: center; /* Optional: Center text inside items */
+.full-bracket {
+  overflow-y: visible;
   margin-bottom: 200px;
   margin-top: -270px;
   margin-left: 1.7%; /* Auto left margin to center */
   margin-right: 0px; /* Auto right margin to center */
+}
+
+.bracket-container {
+  display: flex;
+  height: 100%;
+  justify-content: center; /* Center items horizontally */
+  overflow-y: visible;
+  max-width: 98%; /* Adjust max-width as needed */
+  align-items: center; /* Center items vertically */
+  text-align: center; /* Optional: Center text inside items */
 }
 
 
@@ -165,6 +166,8 @@ html, body{
   justify-content: space-around;
   height: 100%;
   width: 100%;
+  overflow-y: visible;
+
 }
 
 .bracket-level#final-4 {
