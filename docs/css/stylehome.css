@@ -54,6 +54,7 @@ html, body{
   background-color: #D6B464;
 }
 
+
 .circle-container {
   display: flex;
   flex-direction: row;
@@ -62,64 +63,33 @@ html, body{
   margin-bottom: 10px;
   margin-top: -3px;
 }
-
 .circle-image {
-  filter: grayscale(100%);
   width: 30px; /* Adjust size as needed */
   height: 30px; /* Adjust size as needed */
   border-radius: 50%; /* Makes the image a circle */
   overflow: hidden; /* Ensures the image stays within the circle */
-  display: inherit; /* Use inline-block to ensure proper display */
-  vertical-align: left; /* Align the circle images vertically in the middle */
+  display: inline-block; /* Use inline-block to ensure proper display */
+  vertical-align: middle; /* Align the circle images vertically in the middle */
   margin-right: 8px;
 }
-
 .circle-image#wrong {
-  filter: grayscale(0%);
-}
-
-.circle-image#wrong::before {
-  content:"";
-  position: absolute;
-  top:0;
-  left:0;
-  height:100%;
-  width:100%;
   background-color: rgb(179, 61, 61);
-  opacity: 50%;
-  border-radius: 50%; /* Ensure the overlay matches the circle shape */
 }
 
 .circle-image#right {
-  filter: grayscale(0%);
-}
-
-.circle-image#right::before {
-  content:"";
-  position: absolute;
-  top:0;
-  left:0;
-  height:100%;
-  width:100%;
   background-color: rgb(62, 157, 62);
-  opacity: 50%;
-  border-radius: 50%; /* Ensure the overlay matches the circle shape */
-}
 
+}
 
 .circle-image#button {
   width: 20px; /* Adjust size as needed */
   height: 20px; /* Adjust size as needed */
   margin-right: 2px;
   filter: grayscale(0%);
-
-  display: inherit; /* Use inline-block to ensure proper display */
-  vertical-align: middle; /* Align the circle images vertically in the middle */
-
 }
-
-
 .circle-image img {
+  filter: grayscale(100%);
+  opacity: 50%;
   width: 120%; /* Ensures the image takes up the entire circle */
   height: 120%; /* Maintains aspect ratio */
   vertical-align: middle; /* Align the circle images vertically in the middle */
