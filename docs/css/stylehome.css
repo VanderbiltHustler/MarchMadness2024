@@ -124,8 +124,8 @@ html, body{
   align-items: center;
   width: 70%; /* Adjust width as needed */
   height: 160px;
-  margin-top: -150px;
-  margin-bottom: 300px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   margin-left: 16%;
 }
 
