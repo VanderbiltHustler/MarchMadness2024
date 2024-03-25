@@ -340,18 +340,6 @@ ul div {
     margin-bottom: 8px;
 } */
 
-/* DROPDOWN MENU
-*/
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #F2EEE3;
-    min-width: 160px;
-    z-index: 1;
-    top: 22px;
-
-}
-
 /* Show Dropdown Content on Hover and on Click */
 .item.dropdown:hover .dropdown-content,
 .item.dropdown.click:focus .dropdown-content {

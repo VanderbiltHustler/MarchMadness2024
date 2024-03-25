@@ -1,7 +1,48 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700);
 @import url(https://fonts.googleapis.com/css?family=Dosis);
 
+/* 
+    HEADER
+*/
+header {
+  background-size: cover;
+  height: 2vh; /* makes image same height as screen */
+}
 
+.header-section {
+  position: relative;
+  top: -110px; /* Adjust this value to move the section up or down */
+}
+
+.subhead-container {
+  width: 35%;
+  margin: 0 auto; /* Center the container horizontally */
+  justify-content: center;
+}
+
+.bracket-container {
+  display: flex;
+  height: 100%;
+  justify-content: center; /* Center items horizontally */
+  max-width: 98%; /* Adjust max-width as needed */
+  align-items: center; /* Center items vertically */
+  text-align: center; /* Optional: Center text inside items */
+  margin-bottom: 200px;
+  margin-top: -270px;
+  margin-left: 1.7%; /* Auto left margin to center */
+  margin-right: 0px; /* Auto right margin to center */
+}
+
+/* navbar */
+nav {
+  color: #8E6600; /* Set your desired text color */
+  position: fixed;
+  width: 100%;
+  z-index: 200;
+  background-color: #D6B464; /* Set your initial background color */
+  border: 2px solid #D6B464; /* This adds a black border to the bottom of the nav */
+  padding-top: -0.5px;
+}
 
 /*BRACKET STYLES*/
 
