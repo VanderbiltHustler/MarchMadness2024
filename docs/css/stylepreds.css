@@ -54,6 +54,33 @@ html, body{
   background-color: #D6B464;
 }
 
+.circle-image {
+  width: 30px; /* Adjust size as needed */
+  height: 30px; /* Adjust size as needed */
+  border-radius: 50%; /* Makes the image a circle */
+  overflow: hidden; /* Ensures the image stays within the circle */
+  display: inline-block; /* Use inline-block to ensure proper display */
+  vertical-align: middle; /* Align the circle images vertically in the middle */
+  margin-right: 8px;
+}
+
+.circle-image#button {
+  width: 20px; /* Adjust size as needed */
+  height: 20px; /* Adjust size as needed */
+  border-radius: 50%; /* Makes the image a circle */
+  margin-right: 2px;
+  filter: grayscale(0%);
+}
+
+.circle-image img {
+  filter: grayscale(100%);
+  opacity: 50%;
+  width: 120%; /* Ensures the image takes up the entire circle */
+  height: 120%; /* Maintains aspect ratio */
+  vertical-align: middle; /* Align the circle images vertically in the middle */
+  margin-bottom: 10px;
+  margin-right: 20px; /* Move the image to the left within the frame */
+}
 
 /*BRACKET STYLES*/
 .bracket-container {
@@ -224,5 +251,12 @@ No media query for `xs` since this is the default */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+  }
+
+  .circle-image#button {
+    width: 20px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    margin-right: 5px;
+  
   }
 }

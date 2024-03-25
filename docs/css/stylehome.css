@@ -72,6 +72,15 @@ html, body{
   vertical-align: middle; /* Align the circle images vertically in the middle */
   margin-right: 8px;
 }
+
+.circle-image#button {
+  width: 20px; /* Adjust size as needed */
+  height: 20px; /* Adjust size as needed */
+  border-radius: 50%; /* Makes the image a circle */
+  margin-right: 2px;
+  filter: grayscale(0%);
+}
+
 .circle-image#wrong {
   background-color: rgb(179, 61, 61);
 }
@@ -81,12 +90,7 @@ html, body{
 
 }
 
-.circle-image#button {
-  width: 20px; /* Adjust size as needed */
-  height: 20px; /* Adjust size as needed */
-  margin-right: 2px;
-  filter: grayscale(0%);
-}
+
 .circle-image img {
   filter: grayscale(100%);
   opacity: 50%;
