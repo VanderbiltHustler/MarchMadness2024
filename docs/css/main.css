@@ -353,12 +353,6 @@ ul div {
     top: 0px;
 }
 
-@media screen and (max-width: 480px) {
-    .item.dropdown {
-        display: none; /* or any other styling for hiding */
-    }
-}
-
 
 /* 
     ARTICLE ALIGNMENT (flexbox added in larger view widths)
