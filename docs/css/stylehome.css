@@ -71,8 +71,8 @@ html, body{
   height: 30px; /* Adjust size as needed */
   border-radius: 50%; /* Makes the image a circle */
   overflow: hidden; /* Ensures the image stays within the circle */
-  display: inline-block; /* Use inline-block to ensure proper display */
-  vertical-align: middle; /* Align the circle images vertically in the middle */
+  display: inherit; /* Use inline-block to ensure proper display */
+  vertical-align: left; /* Align the circle images vertically in the middle */
   margin-right: 8px;
 }
 
@@ -116,6 +116,9 @@ html, body{
   height: 20px; /* Adjust size as needed */
   margin-right: 2px;
   filter: grayscale(0%);
+
+  display: inherit; /* Use inline-block to ensure proper display */
+  vertical-align: middle; /* Align the circle images vertically in the middle */
 
 }
 
