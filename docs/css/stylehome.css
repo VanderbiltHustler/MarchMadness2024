@@ -110,7 +110,7 @@ html, body{
 .bracket-container {
   display: flex;
   height: 100%;
-  justify-content: center; /* Center items horizontally */
+  justify-content: left; /* Center items horizontally */
   overflow-y: visible;
   max-width: 98%; /* Adjust max-width as needed */
   align-items: center; /* Center items vertically */
@@ -254,4 +254,10 @@ No media query for `xs` since this is the default */
     width: 85px;
   }
   
+  .circle-image {
+    width: 20px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    margin-right: 5px;
+
+  }
 }
