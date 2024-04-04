@@ -133,6 +133,14 @@ html, body{
   margin-left: 16%;
 }
 
+.circle-container#finals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+}
+
+
 
 .bracket-level{
   display: flex;
@@ -149,10 +157,10 @@ html, body{
 }
 
 .bracket-matchup{
-  height: 120px;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   margin: 5px;
   width: 140px;
 }
@@ -164,6 +172,7 @@ html, body{
   text-align: center;
   margin-left: 5px;
   width: 300px;
+  height: 220px;
 }
 
 .bracket-text {
@@ -174,7 +183,7 @@ html, body{
 }
 
 .bracket-team{
-  height: 60px;
+  height: 70px;
   width: 100%;
   background-color: #F5F5F5;
   box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
@@ -192,6 +201,14 @@ html, body{
   white-space: nowrap;
   color: #2B2B2B;
   text-align: left;
+}
+
+.bracket-name#finals{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  margin-top: 5px;
 }
 
 .bracket-name#right{

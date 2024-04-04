@@ -71,6 +71,8 @@ h1, .bylines p, footer p {
 }
 h1, h2, h3 {
     text-align: center;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
     max-width: 80%;
     color: #D6B464;
@@ -101,7 +103,6 @@ h3 { /* third headline */
     justify-content: center;
     text-align: center;
     color: black;
-    margin: auto;
     line-height: 2.5em;
 }
 
