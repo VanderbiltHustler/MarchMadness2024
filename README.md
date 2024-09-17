@@ -37,7 +37,7 @@ Updated: 4/8/2024 <br>
 - Writing | Sam Curtis, Anish Mago, Andrew Wilf
 - Web Design | Katherine Oung
 
-Thank you to [credit any inspiration, open source code, or advisors] for [X].
+This project utilizes [Normalize.css](https://necolas.github.io/normalize.css/) and [Bootstrap](https://getbootstrap.com/). Design inspiration taken from [MeridithZ via CodePen](https://codepen.io/meredithz/pen/VYadPy) and The [New York Times](https://www.nytimes.com/interactive/2023/sports/ncaabasketball/march-madness-mens-bracket.html).
 
 ## Powered by The Vanderbilt Hustler Data Team
 For questions, comments or curiosities: 
