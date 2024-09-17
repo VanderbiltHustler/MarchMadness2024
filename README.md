@@ -42,4 +42,4 @@ Thank you to [credit any inspiration, open source code, or advisors] for [X].
 ## Powered by The Vanderbilt Hustler Data Team
 For questions, comments or curiosities: 
 - Hustler staff: Slack the #data team. 
-- The rest of the 🌎: [email](emailto:katherine.oung@vanderbilt.edu) Data Editor Katherine Oung
+- The rest of the 🌎: [email](mail-to:katherine.oung@vanderbilt.edu) Data Editor Katherine Oung
