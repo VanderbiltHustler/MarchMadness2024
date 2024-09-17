@@ -8,7 +8,7 @@
 
 .header-section {
   position: relative;
-  top: -110px; /* Adjust this value to move the section up or down */
+  top: -110px; 
 }
 
 html, body{
